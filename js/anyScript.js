@@ -28,4 +28,7 @@ callendarBodyEl.addEventListener("click", onCalendarClick);
 
 const head = document.querySelector("head");
 
-console.dir(head.children.length);
+console.dir(head.children);
+for (let i = 0; i < head.children.length; i++) {
+  console.log(head.children[i]);
+}
